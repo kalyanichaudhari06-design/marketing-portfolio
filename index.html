@@ -1,18 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kalyani Chaudhari | GTM Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module">
-      import React from 'https://esm.sh';
-      import ReactDOM from 'https://esm.sh';
-      import App from './src/App.jsx';
-      ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
-    </script>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalyani Chaudhari | GTM Portfolio</title>
+  <!-- Tailwind CSS Engine -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- React Production Engines -->
+  <script src="https://unpkg.com" crossorigin></script>
+  <script src="https://unpkg.com" crossorigin></script>
+  <!-- Babel Engine to Parse Component Layouts -->
+  <script src="https://unpkg.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-slate-950">
+  
+  <div id="root"></div>
+
+  <!-- Component Script Core Layer -->
+  <script type="text/babel">
+    // Inline Database Architecture Configuration
+    const database = {
+      profile: {
+        name: "KALYANI CHAUDHARI",
+        title: "Senior Demand Generation Manager | GTM & Revenue Architect",
+        location: "Berlin, Germany",
+        email: "kalyani.chaudhari06@gmail.com",
+        linkedin: "https://linkedin.com",
+        bio: "Strategic, metrics-driven GTM & Demand Generation Leader with 9+ years of experience orchestrating full-funnel growth engines (€7M+ pipeline influenced) across EU, NA, and APAC. Expert at unifying high-impact brand positioning, PR category creation, and executive thought leadership with automated revenue architecture and programmatic ABM."
+      },
+      metrics: {
+        pipeline: "€7M+",
+        budget: "€800K",
+        winrate: "25%",
+        mroi: "5x MROI"
+      },
+      apps: {
+        abmOsUrl: "https://bolt.host"
+      },
+      projects: [
+        {
+          id: 1,
+          title: "Category Creation & Global Analyst Positioning",
+          tag: "GTM & PR Strategy",
+          situation: "Operated in a highly saturated, technically dense environment where the platform struggled to break out of standard commodity software positioning to secure large enterprise accounts.",
+          task: "Define a new market category, construct a premium brand narrative, and secure formal recognition from global industry analyst firms to establish instant buyer trust.",
+          action: "Co-designed a category-creation blueprint with the Co-founder, transforming product features into high-level customer journeys while orchestrating strategic analyst relations campaigns to pitch the platform's vision.",
+          result: "Successfully positioned the platform as a Top Carbon Management Software in both the Gartner Hype Cycle and the Verdantix Green Quadrant."
+        },
+        {
+          id: 2,
+          title: "Cross-Border 1:1 Programmatic ABM Programs",
+          tag: "Account-Based Marketing",
+          situation: "Scaling pipeline predictably across highly competitive European (EU) and North American (NA) markets required moving away from broad, generic lead acquisition models.",
+          task: "Own end-to-end GTM demand architecture to scale premium account acquisition across Tier-1 and Tier-2 targets while ensuring a balanced, high-yield budget spend.",
+          action: "Engineered 1:1 and 1:few intent-driven ABM playbooks combining paid arrays with an advanced AI account intelligence engine powered by HubSpot, Clay, and Demandbase.",
+          result: "Anchored enterprise account win rates at a verified 25% while delivering a documented 5x Marketing Return on Investment (MROI)."
+        },
+        {
+          id: 3,
+          title: "Scalable Inbound Engine & AI Content Networks",
+          tag: "Inbound & Automation",
+          situation: "Meeting aggressive quarterly revenue milestones required a sustainable, high-volume inbound funnel that did not rely on continuously expanding paid ad spend.",
+          task: "Build an omni-channel inbound network and optimize content asset distribution loops while protecting the internal marketing team's day-to-day operational bandwidth.",
+          action: "Structured an integrated mix of masterclasses, webinars, and content syndication pipelines, implementing AI automation workflows to repurpose core brand assets into multi-channel campaigns.",
+          result: "Accelerated organic enterprise client acquisition to drive 2x YoY pipeline growth while reducing manual content operations."
+        },
+        {
+          id: 4,
+          title: "Cross-Functional GTM Governance & Revenue SLAs",
+          tag: "Revenue Operations",
+          situation: "Historical data leakage between marketing lead generation (MQL) and sales execution (SQO) created distinct operational friction and reduced overall funnel velocity.",
+          task: "Establish a bulletproof operational governance framework to cross-functionally align definitions, protect conversion quality, and secure absolute ROI visibility.",
+          action: "Launched and orchestrated weekly, data-transparent Pipeline Councils with Sales and SDR leadership, implementing strict, binding revenue Service Level Agreements (SLAs).",
+          result: "Heavily optimized MQL-to-SQO conversion quality, streamlined automated lead routing loops, and secured total monthly performance data transparency."
+        },
+        {
+          id: 5,
+          title: "Enterprise MarTech Integration & Website Relaunch",
+          tag: "Marketing Infrastructure",
+          situation: "Legacy operational infrastructures relied heavily on fragmented software instances and manual data formatting, causing severe attribution gaps and inflating overall CAC.",
+          task: "Rebuild the core corporate digital footprint and seamlessly deploy a scalable, enterprise-ready marketing automation engine from scratch.",
+          action: "Spearheaded a comprehensive website relaunch synchronized with a complete company migration to HubSpot automation and behavioral reporting matrices via Mixpanel.",
+          result: "Systematically cut down manual lead cycle processing delays by 50% and sliced overall Customer Acquisition Costs (CAC) by 20%."
+        },
+        {
+          id: 6,
+          title: "Regional Brand Acceleration & VIP Field Marketing",
+          tag: "Field & Partner Marketing",
+          situation: "Expanding into the enterprise Asia-Pacific (APAC) ecosystem required building rapid localized brand authority and capturing complex enterprise pipelines in new territories.",
+          task: "Directly maximize regional Market Development Funds (MDF), execute high-touch field marketing sequences, and build active local customer advocacy matrices.",
+          action: "Orchestrated exclusive, closed-room VIP experiential events and private satellite dinners for enterprise C-level prospects alongside co-marketing partner programs.",
+          result: "Generated an immediate 15% incremental expansion in the regional enterprise target pipeline via highly qualified advocate loops."
+        }
+      ]
+    };
+
+    function App() {
+      return (
+        <div className="min-h-screen bg-slate-950 text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-slate-950">
+          
+          {/* Portfolio Deployment Banner */}
+          <div className="bg-gradient-to-r from-indigo-900 via-slate-900 to-emerald-900 border-b border-slate-800 px-6 py-3 text-center text-xs tracking-wider text-slate-300 font-mono">
+            ⚙️ GTM Portfolio Engine developed by <span className="text-emerald-400 font-bold">{database.profile.name}</span> | Revenue Architect • Browser-Native Interface
+          </div>
+
+          {/* Header Layout */}
+          <header className="border-b border-slate-800 bg-slate-900/30 backdrop-blur-md sticky top-0 z-50 px-6 py-4">
+            <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+              <div>
+                <h1 className="text-xl font-black tracking-tight text-white">{database.profile.name}</h1>
+                <p className="text-xs font-mono text-emerald-400 mt-0.5">{database.profile.title}</p>
+              </div>
+              <div>
+                <a 
+                  href={database.profile.linkedin} 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="text-xs font-mono bg-slate-900 border border-slate-800 px-3 py-2 rounded-xl text-slate-300 hover:text-white hover:border-slate-700 transition-all cursor-pointer"
+                >
+                  LinkedIn Profile ↗
+                </a>
+              </div>
+            </div>
+          </header>
+
+          <main className="max-w-6xl mx-auto px-6 py-12 space-y-16">
+            
+            {/* Executive Bio Framework */}
+            <section className="bg-gradient-to-br from-slate-900 to-indigo-950/30 border border-slate-800/80 p-8 rounded-3xl relative overflow-hidden shadow-2xl">
+              <div className="max-w-4xl space-y-4 relative z-10">
+                <span className="text-[10px] font-mono uppercase tracking-widest bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2.5 py-1 rounded-md">
+                  Executive Brief
+                </span>
+                <p className="text-lg md:text-xl text-slate-200 font-medium leading-relaxed">
+                  {database.profile.bio}
+                </p>
+                <p className="text-xs font-mono text-slate-500">📍 Parameters: {database.profile.location} | Active DACH Target Alignment</p>
+              </div>
+              <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none" />
+            </section>
+
+            {/* Metrics Breakdown Matrix */}
+            <section className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              {[
+                { label: 'Influenced Pipeline', val: database.metrics.pipeline, sub: 'Cross-border SaaS metrics' },
