@@ -11,9 +11,65 @@
     "pipeline": "€7M+",
     "budget": "€800K",
     "winrate": "25%",
-    "mroi": "3x - 5x"
+    "mroi": "5x MROI"
   },
   "apps": {
     "abmOsUrl": "https://bolt.host"
-  }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Category Creation & Global Analyst Positioning",
+      "tag": "GTM & PR Strategy",
+      "situation": "Operated in a highly saturated, technically dense environment where the platform struggled to break out of standard commodity software positioning to secure large enterprise accounts.",
+      "task": "Define a new market category, construct a premium brand narrative, and secure formal recognition from global industry analyst firms to establish instant buyer trust.",
+      "action": "Co-designed a category-creation blueprint with the Co-founder, transforming product features into high-level customer journeys while orchestrating strategic analyst relations campaigns to pitch the platform's vision.",
+      "result": "Successfully positioned the platform as a Top Carbon Management Software in both the Gartner Hype Cycle and the Verdantix Green Quadrant."
+    },
+    {
+      "id": 2,
+      "title": "Cross-Border 1:1 Programmatic ABM Programs",
+      "tag": "Account-Based Marketing",
+      "situation": "Scaling pipeline predictably across highly competitive European (EU) and North American (NA) markets required moving away from broad, generic lead acquisition models.",
+      "task": "Own end-to-end GTM demand architecture to scale premium account acquisition across Tier-1 and Tier-2 targets while ensuring a balanced, high-yield budget spend.",
+      "action": "Engineered 1:1 and 1:few intent-driven ABM playbooks combining paid arrays with an advanced AI account intelligence engine powered by HubSpot, Clay, and Demandbase.",
+      "result": "Anchored enterprise account win rates at a verified 25% while delivering a documented 5x Marketing Return on Investment (MROI)."
+    },
+    {
+      "id": 3,
+      "title": "Scalable Inbound Engine & AI Content Networks",
+      "tag": "Inbound & Automation",
+      "situation": "Meeting aggressive quarterly revenue milestones required a sustainable, high-volume inbound funnel that did not rely on continuously expanding paid ad spend.",
+      "task": "Build an omni-channel inbound network and optimize content asset distribution loops while protecting the internal marketing team's day-to-day operational bandwidth.",
+      "action": "Structured an integrated mix of masterclasses, webinars, and content syndication pipelines, implementing AI automation workflows to repurpose core brand assets into multi-channel campaigns.",
+      "result": "Accelerated organic enterprise client acquisition to drive 2x YoY pipeline growth while reducing manual content operations."
+    },
+    {
+      "id": 4,
+      "title": "Cross-Functional GTM Governance & Revenue SLAs",
+      "tag": "Revenue Operations",
+      "situation": "Historical data leakage between marketing lead generation (MQL) and sales execution (SQO) created distinct operational friction and reduced overall funnel velocity.",
+      "task": "Establish a bulletproof operational governance framework to cross-functionally align definitions, protect conversion quality, and secure absolute ROI visibility.",
+      "action": "Launched and orchestrated weekly, data-transparent Pipeline Councils with Sales and SDR leadership, implementing strict, binding revenue Service Level Agreements (SLAs).",
+      "result": "Heavily optimized MQL-to-SQO conversion quality, streamlined automated lead routing loops, and secured total monthly performance data transparency."
+    },
+    {
+      "id": 5,
+      "title": "Enterprise MarTech Integration & Website Relaunch",
+      "tag": "Marketing Infrastructure",
+      "situation": "Legacy operational infrastructures relied heavily on fragmented software instances and manual data formatting, causing severe attribution gaps and inflating overall CAC.",
+      "task": "Rebuild the core corporate digital footprint and seamlessly deploy a scalable, enterprise-ready marketing automation engine from scratch.",
+      "action": "Spearheaded a comprehensive website relaunch synchronized with a complete company migration to HubSpot automation and behavioral reporting matrices via Mixpanel.",
+      "result": "Systematically cut down manual lead cycle processing delays by 50% and sliced overall Customer Acquisition Costs (CAC) by 20%."
+    },
+    {
+      "id": 6,
+      "title": "Regional Brand Acceleration & VIP Field Marketing",
+      "tag": "Field & Partner Marketing",
+      "situation": "Expanding into the enterprise Asia-Pacific (APAC) ecosystem required building rapid localized brand authority and capturing complex enterprise pipelines in new territories.",
+      "task": "Directly maximize regional Market Development Funds (MDF), execute high-touch field marketing sequences, and build active local customer advocacy matrices.",
+      "action": "Orchestrated exclusive, closed-room VIP experiential events and private satellite dinners for enterprise C-level prospects alongside co-marketing partner programs.",
+      "result": "Generated an immediate 15% incremental expansion in the regional enterprise target pipeline via highly qualified advocate loops."
+    }
+  ]
 }
