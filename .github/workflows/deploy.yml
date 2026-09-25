@@ -23,6 +23,12 @@ jobs:
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
-      - name: Deploy to GitHub Pages Framework
+      - name: Setup Pages Infrastructure
+        uses: actions/configure-pages@v4
+      - name: Upload Workspace Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
